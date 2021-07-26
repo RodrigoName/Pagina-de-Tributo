@@ -1,0 +1,128 @@
+body {
+    margin:0;
+    padding-top: 2%;
+}
+header h1 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+}
+
+header h4 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    max-width: 500px;
+    text-align: center;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao {
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+         
+
+}
+
+.quadro-foto {
+    background-color: #EEE;
+    padding-top: 20px;
+    min-width: 600px;
+}
+   
+
+
+.descricao img {
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    width: 200px;
+    box-shadow: 0px 0px 30px rgba(114, 68, 201, 0.8);
+    
+    
+}
+
+.descricao img:hover {
+   
+    box-shadow: 0px 0px 30px rgba(238, 10, 10, 0.5);
+    
+}
+
+h5 {
+    font-family: 'Mukta Display';
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+.menu {
+    font-family: 'Mukta Display';
+    font-weight: 200;
+    justify-content:center;
+    
+    
+}
+
+.menu li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.winkpedia {
+    padding-top: 60px;  
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: blanchedalmond;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    
+}
+
+footer img {
+    width: 20px;
+    padding-left: 10px;
+ }
+
+
+
+/*RESPONSIVIDADE*/
+
+    @media (max-width:450px){
+
+header {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+
+}
